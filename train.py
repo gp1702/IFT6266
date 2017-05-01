@@ -1,3 +1,4 @@
+#modified form https://gist.github.com/f0k/738fa2eedd9666b78404ed1751336f56
 import sys
 import os
 import time
@@ -110,7 +111,7 @@ if __name__ == '__main__':
     import models
 
     
-    filter_dimension = 16
+    filter_dimension = 512
 
     my_model = train(models.GAN_Captions, learning_rate=0.0002, num_epochs=250, sample=10,
                            save_freq=600, verbose_freq=100, batch_size=128, reload=False,
