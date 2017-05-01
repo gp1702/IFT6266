@@ -114,7 +114,7 @@ if __name__ == '__main__':
     filter_dimension = 512
 
     my_model = train(models.GAN_Captions, learning_rate=0.0002, num_epochs=250, sample=10,
-                           save_freq=600, verbose_freq=100, batch_size=128, reload=False,
+                           save_freq=600, verbose_freq=100000, batch_size=128, reload=False,
                            model_dir="models/Conditonal_GAN/",
                            generator_filter_dimension=filter_dimension,
                            load_caption=True,
