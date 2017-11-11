@@ -14,4 +14,4 @@ Run the script preprocess.py
 Step4:
 Run the file train.py.
 
-More information on this project here[a link](https://gandharvpatil.wordpress.com/).
+More information on this project [here](https://gandharvpatil.wordpress.com/).
