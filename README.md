@@ -1,5 +1,4 @@
-# IFT6266
-Repository for the IFT6266(Deep_Learning)-Image Inpainting Project
+Repository for the -Image Inpainting Project
 
 Step1:
 In the root directory download the data provided on the project website or from the link below
